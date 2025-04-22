@@ -1,0 +1,16 @@
+[workspace]
+resolver = "2"
+members = [
+  "examples/*",
+]
+
+[workspace.package]
+authors = ["Bryant Luk <code@bryantluk.com>"]
+edition = "2024"
+license = "MIT OR Apache-2.0"
+publish = false
+repository = "https://github.com/bluk/wasthat"
+rust-version = "1.85.0"
+version = "0.0.0"
+
+[workspace.dependencies]
